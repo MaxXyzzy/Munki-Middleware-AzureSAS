@@ -2,6 +2,8 @@
 
 Munki Middleware Azure SAS token Proof of Concept
 
+This middleware uses the Azure Storage shared access signature (SAS) method to provide read-only access to resources without risk of exposing the storage account Access Key. https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview
+
 This is a test/PoC! I don't know anything about Python (first timer!), or much about Munki, or much about Azure Storage :P
 
 That said... It seems to work! Yay?
