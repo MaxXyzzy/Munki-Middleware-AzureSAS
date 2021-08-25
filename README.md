@@ -2,7 +2,7 @@
 
 Munki Middleware Azure SAS token Proof of Concept
 
-This is a test/PoC! I don't know anything about Python (first timer!), much about Munki, or much about Azure Storage :P
+This is a test/PoC! I don't know anything about Python (first timer!), or much about Munki, or much about Azure Storage :P
 
 That said... It seems to work! Yay?
 
@@ -14,7 +14,7 @@ How To:
    - Permissions: READ (nothing else)
    - Start/Expiry dates: Set appropriately for your needs.
    - Allowed Protocols: HTTPS Only.
-3. Put the generated Blob SAS token in AZURE_SAS.
+3. Put the generated Blob SAS token in **AZURE_SAS** in the py file.
 4. Install the middleware_azure_sas.py file per the Munki docs:
    - https://github.com/munki/munki/wiki/Middleware
  
