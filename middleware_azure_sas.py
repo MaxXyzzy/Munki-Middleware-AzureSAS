@@ -1,7 +1,7 @@
 """
 Munki Middleware Azure SAS Proof of Concept
 
-https://github.com/MaxXyzzy/Munki-Middleware-AzureStorageSAS
+https://github.com/MaxXyzzy/Munki-Middleware-AzureSAS
 
 by Max who doesn't know anything about Python (first timer!),
    or much about Munki, or much about Azure Storage :P
