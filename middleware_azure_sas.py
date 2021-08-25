@@ -31,5 +31,7 @@ sp=r&st=2021-01-01T01:00:00Z&se=2025-01-01T01:00:00Z&spr=https&sv=2020-08-04&sr=
 AZURE_SAS = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 def process_request_options(options):
-    options['url'] = options['url'] + '?' + AZURE_SAS
+    if 'blob.core' in options['url']:
+        options['url'] = options['url'] + '?' + AZURE_SAS
+
     return options
