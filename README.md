@@ -1,4 +1,4 @@
-# Munki-Middleware-AzureStorageSAS
+# Munki-Middleware-AzureSAS
 
 Munki Middleware Azure SAS token Proof of Concept
 
